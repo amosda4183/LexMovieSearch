@@ -1,0 +1,20 @@
+<resources>
+    <string name="app_name">Movie Search</string>
+    <string name="welcomeMessage">Welcome to Lexington Movie Search! Please select an option below to begin you search!</string>
+    <string name="movieTitle">Search By Movie Title</string>
+    <string name="theater">Search By Theater</string>
+    <string name="showtime">Search By Showtime</string>
+    <string name="startSearch">Start Search</string>
+    <string name="searchWelcome">Please Enter a Movie Title</string>
+    <string name="theaterSearch">Enter a Theater Name </string>
+    <string name="selectTime">Select Showtime</string>
+    <string name="selectDate">Select Date</string>
+    <string name="cinemarkMenu">Cinemark Theatres</string>
+    <string name="regalMenu">Regal Cinemas</string>
+    <string name="stateTheater">Kentucky State Theater</string>
+    <string name="movieTavern">Movie Tavern</string>
+    <string name="choiceMessage">Choose a theater below to view their conession menu!</string>
+    <string name="cinMenuMsg">Cinemark Concession Favorites!</string>
+    <string name="popcornDesc">Popcorn: $3.50 SM</string>
+    <string name="concessionButton">Concession Prices</string>
+</resources>

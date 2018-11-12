@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:orientation="vertical"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".CinemarkMenu"
+    >
+
+    <TextView
+        android:id="@+id/textView13"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="15dp"
+        android:gravity="center"
+        android:text="@string/cinMenuMsg"
+        android:textAlignment="viewStart"
+        android:textColor="@android:color/holo_red_light"
+        android:textSize="24sp"
+        android:textStyle="bold" />
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="59dp"
+        app:srcCompat="@mipmap/cinemark" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView13"
+        android:layout_alignTop="@+id/textView14"
+        app:srcCompat="@mipmap/nano_popcorn_simple" />
+
+    <TextView
+        android:id="@+id/textView14"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView17"
+        android:layout_alignParentEnd="true"
+        android:layout_marginEnd="75dp"
+        android:fontFamily="monospace"
+        android:text="SM Popcorn: $3.50"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView17"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_above="@+id/textView18"
+        android:layout_alignStart="@+id/textView18"
+        android:fontFamily="monospace"
+        android:text="MD Popcorn: $5.00"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView18"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView14"
+        android:layout_centerVertical="true"
+        android:fontFamily="monospace"
+        android:text="LG Popcorn: $6.25"
+        android:textColor="@android:color/holo_orange_light"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageView6"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView13"
+        android:layout_marginBottom="128dp"
+        app:srcCompat="@mipmap/hot_dog_mustard" />
+
+    <TextView
+        android:id="@+id/textView19"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="161dp"
+        android:fontFamily="monospace"
+        android:text="Hot Dog: $5.00"
+        android:textColor="@android:color/holo_blue_dark"
+        android:textSize="18sp" />
+
+    <ImageView
+        android:id="@+id/imageView7"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentBottom="true"
+        android:layout_alignStart="@+id/textView13"
+        app:srcCompat="@mipmap/soft_drink" />
+
+    <TextView
+        android:id="@+id/textView21"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignTop="@+id/imageView7"
+        android:layout_toEndOf="@+id/imageView5"
+        android:fontFamily="monospace"
+        android:text="SM Soda: $4.00"
+        android:textColor="?attr/actionMenuTextColor"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView22"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView21"
+        android:layout_below="@+id/textView21"
+        android:fontFamily="monospace"
+        android:text="MD Soda: $5.00"
+        android:textColor="?attr/actionMenuTextColor"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView23"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignStart="@+id/textView21"
+        android:layout_below="@+id/textView22"
+        android:fontFamily="monospace"
+        android:text="LG Soda: $6.00"
+        android:textColor="?attr/actionMenuTextColor"
+        android:textSize="18sp" />
+
+    <TextView
+        android:id="@+id/textView24"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentEnd="true"
+        android:layout_alignTop="@+id/textView22"
+        android:layout_marginEnd="26dp"
+        android:text="(No Refills)"
+        android:textColor="?attr/actionMenuTextColor"
+        android:textSize="12sp" />
+</RelativeLayout>
+
